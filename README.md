@@ -61,6 +61,8 @@ flask db migrate -m "Initial migration."
 flask db upgrade
 ```
 
+####Note: You will need to setup postgres on your own and supply the URI. Same goes for MongoDb 
+
 ### 6. Run the Application
 
 ```bash
